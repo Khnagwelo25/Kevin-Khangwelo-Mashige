@@ -11,13 +11,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  /* --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #bd5d38;
-  --bs-yellow: lightseagreen;
+  --bs-pink: #d63384; */
+  /* --bs-red: #dc3545; */
+  /* --bs-orange: #bd5d38; */
+  --bs-yellow: rgb(0, 240, 228);
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -35,13 +35,13 @@
   --bs-gray-900: #212529;
   --bs-primary: lightseagreen;
   --bs-secondary: #6c757d;
-  --bs-success: #198754;
+  /* --bs-success: #198754; */
   --bs-info: #0dcaf0;
-  --bs-warning: lightseagreen;
-  --bs-danger: #dc3545;
+  /* --bs-warning: lightseagreen; */
+  /* --bs-danger: #dc3545; */
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  /* --bs-primary-rgb: ; */
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -84,9 +84,9 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: lightgreen;
+  background-color: rgb(183, 219, 183);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: lightgreen;
+  -webkit-tap-highlight-color: rgb(144, 238, 205);
 }
 
 hr {
@@ -217,7 +217,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #1cd0ca;
 }
 
 sub,
@@ -274,7 +274,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d63384;
+  color: #48c4cb;
   word-wrap: break-word;
 }
 a > code {
@@ -285,7 +285,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #212529;
+  background-color: lightgreen;
   border-radius: 0.2rem;
 }
 kbd kbd {
@@ -311,7 +311,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: l;
   text-align: left;
 }
 
@@ -3933,12 +3933,15 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
-.nav {
+nav {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+ 
+
+  
 }
 
 .nav-link {
@@ -4143,6 +4146,8 @@ textarea.form-control-lg {
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    
+
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -4156,7 +4161,7 @@ textarea.form-control-lg {
     z-index: 1000;
     flex-grow: 1;
     visibility: visible !important;
-    background-color: transparent;
+    
     border-right: 0;
     border-left: 0;
     transition: none;
@@ -4185,6 +4190,8 @@ textarea.form-control-lg {
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
+    
+
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -4232,6 +4239,8 @@ textarea.form-control-lg {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
+    
+
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -4249,6 +4258,8 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    
+
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -7810,7 +7821,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: lightseagreen;
 }
 
 .bg-secondary {
@@ -11333,6 +11344,7 @@ p.lead {
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
+
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -11355,7 +11367,9 @@ p.lead {
     flex-direction: column;
     width: 20%;
     height: 100vh;
-    background-color: lightgreen;
+   
+
+
     
   }
   #sideNav .navbar-brand {
@@ -11363,6 +11377,8 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem; 
     border:#055160;
+    
+
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
@@ -11375,9 +11391,13 @@ p.lead {
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
+   
+
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
+    
+
     width: 100%;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
@@ -11385,6 +11405,8 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+    
+
   }
 }
 .social-icons .social-icon {
