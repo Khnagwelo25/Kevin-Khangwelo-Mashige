@@ -5136,12 +5136,12 @@ nav {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: rgb(13, 13, 13);
 }
 
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: rgb(22, 21, 21);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -5159,7 +5159,7 @@ nav {
 
 .navbar-dark .navbar-nav .show>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: rgb(11, 11, 11);
 }
 
 .navbar-dark .navbar-toggler {
@@ -12498,6 +12498,11 @@ li:hover{
     background-image:url(/assets/img/Untitled\ design.png);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .navbar-nav{
+
+    color: black;
   }
 
  
