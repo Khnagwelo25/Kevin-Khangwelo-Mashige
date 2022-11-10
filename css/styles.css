@@ -119,7 +119,7 @@ h1,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: rgb(255, 255, 255);
+  color: rgb(23, 22, 22);
 }
 
 h1,
@@ -4355,7 +4355,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark .dropdown-item.disabled,
 .dropdown-menu-dark .dropdown-item:disabled {
-  color: #adb5bd;
+  color: black;
 }
 
 .dropdown-menu-dark .dropdown-divider {
@@ -4367,7 +4367,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu-dark .dropdown-header {
-  color: #adb5bd;
+  color: black;
 }
 
 .btn-group,
@@ -4638,7 +4638,7 @@ nav {
 
 }
 
-.navbar-nav .nav-link {
+.r-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
 }
@@ -5136,34 +5136,34 @@ nav {
 }
 
 .navbar-dark .navbar-brand {
-  color: rgb(13, 13, 13);
+  color: rgb(19, 18, 18);
 }
 
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: rgb(22, 21, 21);
+  color: black;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color:black;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color:black;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color:black;
 }
 
 .navbar-dark .navbar-nav .show>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: rgb(11, 11, 11);
+  color:black;
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
+  color:black;
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -12436,7 +12436,7 @@ section.resume-section .resume-section-content {
 
 .Kevin{
 
-  background-image: ;
+  /* background-image: ; */
  
   border-radius: 2rem;
   height: 100%;
@@ -12467,11 +12467,11 @@ button{
   margin: 2px 3px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; Safari
-  transition-duration: 0.4s;
+  /* transition-duration: 0.4s;
   padding-left: 15%;
   margin-right: -600px;
   border-radius: 3rem;
-  color: wheat;
+  color: wheat; */
 }
 
 button:hover {
@@ -12480,7 +12480,7 @@ button:hover {
 }
 
 a{
-  color: white;
+  color: black;
 
 }
 
@@ -12503,6 +12503,16 @@ li:hover{
   .navbar-nav{
 
     color: black;
+  }
+
+  .subheading {
+
+    color: #000;
+  }
+
+  div{
+
+    color: #000;
   }
 
  
